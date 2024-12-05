@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+h1 {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+img {
+    height: 30px ;
+    width: 30px;
+}
+
+.medalhas {
+    height: 25px ;
+    width: 25px;
+}
+td {
+    text-align: center;
+}
+.pais {
+    text-align: left;
+    width: 200px
+}
+
+td {
+    width: 30px;
+}
+td:nth-child(1) {
+    width: 30px;
+}
+td:nth-child(3) {
+    text-align: left;
+    width: 200px;
+}
+td img:hover {
+    transform: scale(3);
+}
+tr:hover {
+   background-color: burlywood;
+}
